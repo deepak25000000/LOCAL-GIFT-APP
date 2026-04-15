@@ -1,0 +1,35 @@
+﻿src/app/chat/page.tsx(3,24): error TS2307: Cannot find module 'framer-motion' or its corresponding type declarations.
+src/app/chat/page.tsx(4,64): error TS2307: Cannot find module 'lucide-react' or its corresponding type declarations.
+src/app/chat/page.tsx(110,30): error TS2304: Cannot find name 'ArrowLeft'.
+src/app/create-listing/page.tsx(3,24): error TS2307: Cannot find module 'framer-motion' or its corresponding type declarations.
+src/app/create-listing/page.tsx(4,60): error TS2307: Cannot find module 'lucide-react' or its corresponding type declarations.
+src/app/create-listing/page.tsx(29,28): error TS7006: Parameter 'e' implicitly has an 'any' type.
+src/app/dashboard/page.tsx(3,24): error TS2307: Cannot find module 'framer-motion' or its corresponding type declarations.
+src/app/dashboard/page.tsx(5,56): error TS2307: Cannot find module 'lucide-react' or its corresponding type declarations.
+src/app/dashboard/page.tsx(124,36): error TS2304: Cannot find name 'cn'.
+src/app/dashboard/page.tsx(133,36): error TS2304: Cannot find name 'cn'.
+src/app/forgot-password/page.tsx(3,24): error TS2307: Cannot find module 'framer-motion' or its corresponding type declarations.
+src/app/forgot-password/page.tsx(5,33): error TS2307: Cannot find module 'lucide-react' or its corresponding type declarations.
+src/app/item/[id]/page.tsx(3,24): error TS2307: Cannot find module 'framer-motion' or its corresponding type declarations.
+src/app/item/[id]/page.tsx(4,93): error TS2307: Cannot find module 'lucide-react' or its corresponding type declarations.
+src/app/login/page.tsx(3,24): error TS2307: Cannot find module 'framer-motion' or its corresponding type declarations.
+src/app/login/page.tsx(5,34): error TS2307: Cannot find module 'lucide-react' or its corresponding type declarations.
+src/app/notifications/page.tsx(3,24): error TS2307: Cannot find module 'framer-motion' or its corresponding type declarations.
+src/app/notifications/page.tsx(4,85): error TS2307: Cannot find module 'lucide-react' or its corresponding type declarations.
+src/app/page.tsx(3,24): error TS2307: Cannot find module 'framer-motion' or its corresponding type declarations.
+src/app/page.tsx(5,49): error TS2307: Cannot find module 'lucide-react' or its corresponding type declarations.
+src/app/profile/page.tsx(3,24): error TS2307: Cannot find module 'framer-motion' or its corresponding type declarations.
+src/app/profile/page.tsx(4,63): error TS2307: Cannot find module 'lucide-react' or its corresponding type declarations.
+src/app/providers.tsx(3,53): error TS2307: Cannot find module 'next-themes' or its corresponding type declarations.
+src/app/providers.tsx(4,41): error TS2307: Cannot find module 'next-themes' or its corresponding type declarations.
+src/app/requests/page.tsx(3,24): error TS2307: Cannot find module 'framer-motion' or its corresponding type declarations.
+src/app/requests/page.tsx(4,78): error TS2307: Cannot find module 'lucide-react' or its corresponding type declarations.
+src/app/signup/page.tsx(3,24): error TS2307: Cannot find module 'framer-motion' or its corresponding type declarations.
+src/app/signup/page.tsx(5,40): error TS2307: Cannot find module 'lucide-react' or its corresponding type declarations.
+src/components/Footer.tsx(1,22): error TS2307: Cannot find module 'lucide-react' or its corresponding type declarations.
+src/components/ItemCard.tsx(3,24): error TS2307: Cannot find module 'framer-motion' or its corresponding type declarations.
+src/components/ItemCard.tsx(4,53): error TS2307: Cannot find module 'lucide-react' or its corresponding type declarations.
+src/components/Navbar.tsx(5,51): error TS2307: Cannot find module 'lucide-react' or its corresponding type declarations.
+src/components/Navbar.tsx(6,26): error TS2307: Cannot find module 'next-themes' or its corresponding type declarations.
+src/lib/utils.ts(1,39): error TS2307: Cannot find module 'clsx' or its corresponding type declarations.
+src/lib/utils.ts(2,25): error TS2307: Cannot find module 'tailwind-merge' or its corresponding type declarations.

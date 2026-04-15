@@ -1,0 +1,56 @@
+﻿
+> localgift-app@0.1.0 build
+> next build
+
+Γû▓ Next.js 16.1.6 (Turbopack)
+- Environments: .env.local
+
+  Creating an optimized production build ...
+Γ£ô Compiled successfully in 10.2s
+  Running TypeScript ...
+node.exe : Failed 
+to compile.
+At line:1 char:1
++ & "C:\Program File
+s\nodejs/node.exe" 
+"C:\Program Files\no
+dejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~
+    + CategoryInfo  
+            : NotS  
+  pecified: (Fail   
+ ed to compile.:    
+String) [], Rem    
+oteException
+    + FullyQualifie 
+   dErrorId : Nati  
+  veCommandError
+ 
+
+.next/dev/types/vali
+dator.ts:233:1
+Type error: Cannot 
+find name '_Unused'.
+
+[0m [90m 231 
+|[39m   type 
+__Unused 
+[33m=[39m __Check
+ [90m 232 |[39m }
+[31m[1m>[22m[39m
+[90m 233 |[39m 
+_Unused [33m=[39m 
+__Check
+ [90m     |[39m 
+[31m[1m^[22m[39m
+ [90m 234 |[39m }
+ [90m 235 |[39m
+ [90m 236 
+|[39m[0m
+Next.js build 
+worker exited with 
+code: 1 and signal: 
+null

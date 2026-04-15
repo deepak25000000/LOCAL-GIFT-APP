@@ -1,0 +1,50 @@
+﻿
+> localgift-app@0.1.0 dev
+> next dev
+
+Γû▓ Next.js 16.1.6 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://10.32.140.191:3000
+- Environments: .env.local
+
+Γ£ô Starting...
+Γ£ô Ready in 3.1s
+Γùï Compiling / ...
+ GET / 200 in 11.4s (compile: 7.9s, render: 3.5s)
+ GET / 200 in 3.7s (compile: 3.2s, render: 539ms)
+Γùï Compiling /login ...
+ GET /login 200 in 9.1s (compile: 8.9s, render: 153ms)
+Γùï Compiling /dashboard ...
+ GET /dashboard 200 in 6.8s (compile: 6.7s, render: 136ms)
+Γ£ô Compiled in 4.3s
+ GET /dashboard 200 in 568ms (compile: 17ms, render: 551ms)
+Γùï Compiling /create-listing ...
+ GET /map 200 in 20.0s (compile: 15.0s, render: 5.0s)
+ GET /chat 200 in 21.4s (compile: 20.8s, render: 578ms)
+ GET /requests 200 in 20.4s (compile: 17.0s, render: 3.4s)
+ GET /create-listing 200 in 25.5s (compile: 23.2s, render: 2.3s)
+ GET /dashboard 200 in 19.1s (compile: 8.7s, render: 10.4s)
+ GET / 200 in 995ms (compile: 363ms, render: 632ms)
+Γ£ô Finished writing to filesystem cache in 10.0s
+ GET /create-listing 200 in 159ms (compile: 50ms, render: 108ms)
+ GET /chat 200 in 1163ms (compile: 789ms, render: 374ms)
+ GET /login 200 in 1400ms (compile: 895ms, render: 505ms)
+ GET /login 200 in 187ms (compile: 50ms, render: 137ms)
+ GET /requests 200 in 726ms (compile: 420ms, render: 306ms)
+ GET /login 200 in 295ms (compile: 18ms, render: 277ms)
+ GET /login 200 in 145ms (compile: 27ms, render: 118ms)
+ GET /map 200 in 715ms (compile: 454ms, render: 261ms)
+Γ£ô Finished filesystem cache database compaction in 20.2s
+Γ£ô Finished writing to filesystem cache in 16.5s
+ GET / 200 in 1125ms (compile: 212ms, render: 913ms)
+ GET / 200 in 120ms (compile: 9ms, render: 111ms)
+ GET / 200 in 314ms (compile: 15ms, render: 299ms)
+Γ£ô Compiled in 2.5s
+ GET /map 200 in 1855ms (compile: 518ms, render: 1337ms)
+ GET /map 200 in 505ms (compile: 47ms, render: 457ms)
+ GET /map 200 in 371ms (compile: 10ms, render: 361ms)
+ GET /map 200 in 280ms (compile: 9ms, render: 271ms)
+ GET /map 200 in 206ms (compile: 15ms, render: 190ms)
+ GET /map 200 in 239ms (compile: 41ms, render: 198ms)
+ GET /map 200 in 134ms (compile: 41ms, render: 93ms)
+ GET / 200 in 946ms (compile: 390ms, render: 556ms)

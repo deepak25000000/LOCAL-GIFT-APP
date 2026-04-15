@@ -1,0 +1,96 @@
+﻿[dotenv@17.3.1] injecting env (10) from .env -- tip: ΓÜÖ∩╕Å  load multiple .env files with { path: ['.env.local', '.env'] }
+node : C:\Users\Admi
+nistrator\Desktop\AW
+S_LAB\AWS_P1\backend
+\node_modules\@supab
+ase\supabase-js\dist
+\index.cjs:147
+At line:1 char:1
++ node index.js 
+2>&1 | Out-File 
+-FilePath error.log 
+-Encoding UTF8
++ ~~~~~~~~~~~~~~~~~~
+    + CategoryInfo  
+            : 
+NotSpecified    : 
+(C:\Users\Admini.   
+ 
+..t\index.cjs:147:S 
+   tring) [], 
+RemoteEx    ception
+    + 
+FullyQualifiedErr   
+ orId : 
+NativeComman    
+dError
+ 
+	if (!trimmedUrl.mat
+ch(/^https?:\/\//i))
+ throw new 
+Error("Invalid 
+supabaseUrl: Must 
+be a valid HTTP or 
+HTTPS URL.");
+	                   
+                    
+ ^
+
+Error: Invalid 
+supabaseUrl: Must 
+be a valid HTTP or 
+HTTPS URL.
+    at 
+validateSupabaseUrl 
+(C:\Users\Administra
+tor\Desktop\AWS_LAB\
+AWS_P1\backend\node_
+modules\@supabase\su
+pabase-js\dist\index
+.cjs:147:48)
+    at new 
+SupabaseClient (C:\U
+sers\Administrator\D
+esktop\AWS_LAB\AWS_P
+1\backend\node_modul
+es\@supabase\supabas
+e-js\dist\index.cjs:
+362:19)
+    at createClient 
+(C:\Users\Administra
+tor\Desktop\AWS_LAB\
+AWS_P1\backend\node_
+modules\@supabase\su
+pabase-js\dist\index
+.cjs:555:9)
+    at 
+Object.<anonymous> (
+C:\Users\Administrat
+or\Desktop\AWS_LAB\A
+WS_P1\backend\supaba
+seClient.js:13:7)
+    at 
+Module._compile (nod
+e:internal/modules/c
+js/loader:1706:14)
+    at Object..js (n
+ode:internal/modules
+/cjs/loader:1839:10)
+    at Module.load (
+node:internal/module
+s/cjs/loader:1441:32
+)
+    at 
+Function._load (node
+:internal/modules/cj
+s/loader:1263:12)
+    at TracingChanne
+l.traceSync (node:di
+agnostics_channel:32
+2:14)
+    at 
+wrapModuleLoad (node
+:internal/modules/cj
+s/loader:237:24)
+
+Node.js v22.20.0
