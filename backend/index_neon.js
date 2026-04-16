@@ -224,3 +224,5 @@ app.put('/api/users/:userId/profile', verifyFirebaseToken, async (req, res) => {
         res.json(rows[0]);
     } catch { res.status(500).json({}); }
 });
+
+module.exports = app;

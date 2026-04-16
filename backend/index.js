@@ -666,3 +666,5 @@ server.listen(PORT, () => {
     console.log(`✅ LocalGift Backend running on http://localhost:${PORT}`);
     console.log(`   Postgres: ✅ Native Neon connected`);
 });
+
+module.exports = app;
