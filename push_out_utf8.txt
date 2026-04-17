@@ -1,0 +1,13 @@
+﻿branch 'main' set up to track 'origin/main'.
+git : Everything up-to-date
+At line:1 char:1
++ git push -u origin main > 
+push_out.txt 2>&1
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~
+    + CategoryInfo          : NotSp 
+   ecified: (Everything up-to-date  
+  :String) [], RemoteException
+    + FullyQualifiedErrorId : Nativ 
+   eCommandError
+ 
