@@ -27,17 +27,17 @@ export default function MapContent({ items }: { items: Item[] }) {
 
         async function initCesium() {
             try {
-                // Load Cesium widget CSS
+                // Load Cesium widget CSS from CDN
                 if (!document.getElementById("cesium-widgets-css")) {
                     const link = document.createElement("link");
                     link.id = "cesium-widgets-css";
                     link.rel = "stylesheet";
-                    link.href = "/cesium/Widgets/widgets.css";
+                    link.href = "https://unpkg.com/cesium@1.140.0/Build/Cesium/Widgets/widgets.css";
                     document.head.appendChild(link);
                 }
 
-                // Set base URL for Cesium assets BEFORE importing
-                (window as any).CESIUM_BASE_URL = "/cesium";
+                // Set base URL for Cesium assets (Workers, ThirdParty, Assets) to CDN
+                (window as any).CESIUM_BASE_URL = "https://unpkg.com/cesium@1.140.0/Build/Cesium";
 
                 const CesiumModule = await import("cesium");
                 Cesium = CesiumModule;
