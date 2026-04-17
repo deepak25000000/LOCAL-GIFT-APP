@@ -36,15 +36,15 @@ export default function MapContent({ items }: { items: Item[] }) {
                     document.head.appendChild(link);
                 }
 
+                // Set base URL for Cesium assets BEFORE importing
+                (window as any).CESIUM_BASE_URL = "/cesium";
+
                 const CesiumModule = await import("cesium");
                 Cesium = CesiumModule;
 
                 // Set Ion token
                 Cesium.Ion.defaultAccessToken =
                     process.env.NEXT_PUBLIC_CESIUM_ION_TOKEN || "";
-
-                // Set base URL for Cesium assets
-                (window as any).CESIUM_BASE_URL = "/cesium";
 
                 if (!containerRef.current || !mounted) return;
 
