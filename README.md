@@ -1,4 +1,4 @@
-# LocalGift Platform
+# LocalGift Platform Full Stack Application 
 
 A comprehensive full-stack platform that connects local communities to explore, share, and track local gifts, featuring an interactive 3D map, distinct administrative tools, and a reliable database backbone.
 
